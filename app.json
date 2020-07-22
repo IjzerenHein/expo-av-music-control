@@ -1,0 +1,12 @@
+{
+  "name": "avtest",
+  "displayName": "avtest",
+  "expo": {
+    "name": "avtest",
+    "slug": "avtest",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
