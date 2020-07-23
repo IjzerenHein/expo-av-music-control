@@ -39,7 +39,6 @@ export default class App extends Component {
         });
       }
     );
-    console.log("YO: ", this.soundObj.status.durationMillis * 0.001);
     this.setupLockScreenControls(this.soundObj.status.durationMillis * 0.001);
     this.setState({ isAudioReady: true, initialisedWith: "expo-av" });
   };
