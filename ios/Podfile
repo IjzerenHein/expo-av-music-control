@@ -78,6 +78,8 @@ target 'avtest' do
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
+  pod 'react-native-music-control', :path => '../node_modules/react-native-music-control'
+
   use_unimodules!
   use_native_modules!
 
